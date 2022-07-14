@@ -45,7 +45,7 @@ $(function() {
         loadEntry(index);
     });
 
-
+    
     function bgColor(time) {
         let currentTime = moment(now, "H a");
         let workPlan = moment(time, "H a");
